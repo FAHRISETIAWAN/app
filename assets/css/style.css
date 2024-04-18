@@ -435,6 +435,23 @@ p {
 .search-section .try_free_btn:hover{
     background-color: var(--e-global-color-secondary);
 }
+
+.try_free_btn{
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 500;
+    padding: 19px 34px;
+    border-radius: 8px;
+    color: var(--e-global-color-white);
+    background-color: var(--e-global-color-accent);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+}
+.try_free_btn:hover{
+    background-color: var(--e-global-color-secondary);
+    color:white;
+}
 .search_wrapper{
     position: relative;
 }
@@ -604,6 +621,7 @@ p {
     background-color: var(--e-global-color-white);
     border: 1px solid white;
     transition: all 0.3s ease-in-out;
+    height:500px;
 }
 .price-section .hover1:hover{
     border: 1px solid var(--e-global-color-secondary);
@@ -635,8 +653,8 @@ p {
     background: var(--e-global-color-Very-pale-mostly-white-blue);
 }
 .price-section .price_content .text1{
-    font-size: 42px;
-    line-height: 64px;
+    font-size: 25px;
+    /* line-height: 64px; */
     font-weight: 500;
     color: var(--e-global-color-secondary);
     display: block;
